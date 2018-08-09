@@ -1,0 +1,29 @@
+{
+  "name": "webscrapping",
+  "version": "1.0.0",
+  "description": "Simple nodejs project to web scraping using cheerio.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-Muhaimenul/node-webscrapping.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webscraping",
+    "cheerio"
+  ],
+  "author": "Muhaimenul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/I-Muhaimenul/node-webscrapping/issues"
+  },
+  "homepage": "https://github.com/I-Muhaimenul/node-webscrapping#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "nodemon": "^1.18.3",
+    "request": "^2.87.0"
+  }
+}

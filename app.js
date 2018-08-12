@@ -21,9 +21,10 @@ request('http://codedemos.com/sampleblog/', (error, response, html) => {
         //target parent of child element
         console.log(sitHeading.children('h1').parent().text())
 
-        $('.nav-item a').each((i, el) => {
+        $('.nav-item a').each((i, el) => { //el is just a variable, i is an index
             const item = $(el).text()
-            console.log(item)
+            const link = $(el).attr('href')
+            console.log(link)
         })
     }
 })
